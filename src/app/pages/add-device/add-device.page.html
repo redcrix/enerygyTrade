@@ -1,0 +1,59 @@
+<ion-header class="_header">
+  
+  <ion-toolbar class="_toolbar">
+    <ion-title class="__title">
+        ADD RESOURCES
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="_content">
+
+<div class="content-main">
+
+  <div class="Source_1">
+    <p class="enry_p">What enery sources do you have?</p>
+
+    <ion-row>
+      <ion-col>
+        <div class="Card_" (click)="selectSolar()" id="solarDiv">
+          
+            <img src="../../../assets/assets2/solar-power.svg" class="ico_">
+            <p class="p_veh">Solar</p>
+          
+        </div>
+
+        <div class="Card_" (click)="selectGenerator()" id="generatorDiv">
+          
+            <img src="../../../assets/assets2/generator.svg" class="ico_">
+            <p class="p_veh">Generator</p>
+          
+          </div>
+
+          <div class="Card_" (click)="selectEV()" id="evDiv">
+
+            <img src="../../../assets/assets2/ev.svg" class="ico_">
+            <p class="p_veh">Electric Vehicle</p>
+          
+            </div>
+      </ion-col>
+    </ion-row>
+  </div>
+
+</div>
+</ion-content>
+
+
+<ion-footer class="source_">
+    <ion-toolbar class="_toolbar__">
+
+        <ion-buttons slot="start" (click)="skip()">
+           <p class="_skip">Skip </p>
+          </ion-buttons>
+      
+          <ion-buttons slot="end" (click)="next()">
+              <p class="_next">NEXT </p>
+             </ion-buttons>
+    
+      </ion-toolbar>
+  </ion-footer>
