@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../../assets/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../assets/fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../../../assets/fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../../assets/fonts/Roboto-Light.woff2') format('woff2'),
+        url('../../../assets/fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+._content {
+    display: flex;
+}
+
+.psell-sec {background-color: #0048a8;}
+ion-icon.rt-arw.ios.hydrated {font-size: 32px;color: #fff;font-weight: 600;margin-bottom: -36px;}
+h3.sell-head {color: #fff;font-family: "Montserrat";font-size: 24px;font-weight: 600;margin-top: 0px;text-transform: uppercase;}
+.latest-tsec1 {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.trans-icn .circle-icn {
+    font-size: 48px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #3c4b6f;
+    transform: rotate(-45deg);
+    margin-bottom: -7px;
+}
+.trans-icn .circle-icn2 {
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #9eb79e;
+    transform: rotate(135deg);
+}
+.trans-units p {
+    float: right;
+    margin-top: -45px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 10px;
+    color: #323232;
+    font-family: 'Montserrat';
+}
+.trans-units span {
+    font-size: 9px;
+    color: #a6a7a8;
+    font-family: 'Montserrat';
+}
+.trans-units h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #323232;
+    font-family: 'Montserrat';
+}
+.latest-tsec2 .trans-units h6 {
+    color: #7f7f7f;
+    font-family: 'Montserrat';
+}
+.latest-tsec2 .trans-units p{
+    color: #7f7f7f;
+}
+.sechdule-trans span{
+    font-size: 10px;
+    margin-left: 0px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: 2px;
+    float: right;
+    margin-right: 60px;
+}
+.sechdule-trans .st-icn {
+    font-size: 16px;
+    color: #0048a8;
+}
+.trans-icn span.icn-text {
+    font-size: 10px;
+    margin-top: 2px;
+    color: #a6a7a8;
+    float: right;
+    margin-right: 10px;
+}
+ion-icon.loct-icn.ios.hydrated {
+    color: #0048a8;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.srch_para p{
+    font-size: 12px;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-family: "Montserrat";
+}
+.sort_filter {
+    --ion-color-primary: #0048a8;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #296bc2;
+    padding: 0px;
+}
+ion-col.sort_col.ios.hydrated {
+    border-right: 1px solid #296bc2;
+    padding: 0px;
+}
+ion-col.filt_col.ios.hydrated {
+    padding: 0px;
+}

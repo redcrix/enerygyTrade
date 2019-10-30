@@ -4,6 +4,82 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ordr_dt">
+    <ion-grid class="ordr_heads">
+        <ion-row>
+          <ion-col size="12" size-sm>
+            <ion-icon class="rt-arw" name="arrow-round-back"></ion-icon>
+            <h3 class="sell-head text-center">Order Details</h3>
+          </ion-col>
+          <ion-col size="12">
+            <ion-icon class="ord_icn" name="checkmark-circle"></ion-icon>
+            <p class="ord_hpara">225/-<br><span style="font-weight: 500;font-size: 14px;">Solar Power</span></p>
+          </ion-col>
+        </ion-row>
+        <ion-row class="ord-rw">
+          <ion-col class="ord-lcl" size="6"><p>25<br>UNITS</p></ion-col>
+          <ion-col class="ord-rcl" size="6"><p>11 JUN 2019<br>8:00 AM - 9:00 AM</p></ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row class="pay_row">
+        <ion-col>
+          <h4>Payment Options</h4>
+        </ion-col>
+
+        <ion-col size="12"><nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">BHIM UPI</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">DEBIT CARD</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">CREDIT CARD</a>
+          </div>
+        </nav>
+      </ion-col>
+
+      <ion-col>
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            <ion-row>
+              <ion-col size="2"><img class="img-icn" src="../assets/images/hdfc-logo.png"/></ion-col>
+              <ion-col size="7"><p>******2261</p><span>HDFC Bank</span></ion-col>
+              <ion-col size="3" class="tick-col"><ion-icon class="dlt-ord" name="trash"></ion-icon>          
+                  <!-- Checked Checkbox -->
+                  <ion-checkbox class="chk-tick" checked="true" color="success"></ion-checkbox>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="2"><img class="img-icn" src="../assets/images/union-logo.png"/></ion-col>
+              <ion-col size="7"><p>******1009</p><span>Union Bank of India</span></ion-col>
+              <ion-col size="3" class="tick-col">        
+                  <!-- Checked Checkbox -->
+                  <ion-checkbox class="chk-tick2" color="success"></ion-checkbox>
+              </ion-col>
+              <hr class="pay-line">
+            </ion-row>
+            <ion-row>
+              <ion-col class="add-bnk"><h5>Add another bank account</h5></ion-col>
+            </ion-row>
+            <ion-row class="btn-roww">
+              <ion-col size="12" class="btn-coll"><ion-button class="btn-pay" color="primary" shape="round" expand="full" (click)="foo()">Confirm payment</ion-button></ion-col>
+            </ion-row>
+
+          </div>
+
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            Et et consectetur ipsum labore</div>
+
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            Et et consectetur ipsum labore</div>
+            
+        </div>
+      </ion-col>
+      </ion-row>
+      <ion-row></ion-row>
+    </ion-grid>
+
+  
 
 </ion-content>

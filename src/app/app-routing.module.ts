@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: '',
     // loadChildren: () => import('src/app/pages/dashboard/dashboard.module').then(m => m.DashboardPageModule)
-    loadChildren: () => import('src/app/pages/sell-rate-set/sell-rate-set.module').then(m => m.SellRateSetPageModule)
+    loadChildren: () => import('src/app/pages/order-details/order-details.module').then(m => m.OrderDetailsPageModule)
   },
   {
     path: 'home',

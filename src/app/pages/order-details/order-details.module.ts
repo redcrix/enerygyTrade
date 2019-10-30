@@ -23,4 +23,13 @@ const routes: Routes = [
   ],
   declarations: [OrderDetailsPage]
 })
-export class OrderDetailsPageModule {}
+export class OrderDetailsPageModule {
+  
+
+  constructor(){
+
+  }
+
+
+
+}
